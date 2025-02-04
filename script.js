@@ -226,17 +226,15 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
      
         case 14:
-                document.getElementById('noBtn').innerHTML = 'por favooooooor';
-                document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('noBtn').innerHTML = 'por favooooooor';
+            document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
-                document.getElementById('sadGifContainer').style.display = 'none';
-                document.getElementById('sadGifContainer1').style.display = 'none';
-                document.getElementById('sadGifContainer2').style.display = 'none';
-                document.getElementById('gifContainer').style.display = 'block';
-                document.getElementById('happyGifContainer').style.display = 'none';
+            // Hacer que el botón "Sí" crezca
+            document.getElementById('siBtn').style.fontSize = '280px';
+            document.getElementById('siBtn').style.padding = '170px 280px';
                 // Vuelve al estado 0
-                noButtonState = 0;
-                break;
+            noButtonState = 0;
+            break;
         
 
         default:
