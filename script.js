@@ -47,6 +47,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             // Primera vez haciendo clic en "No"
             document.getElementById('happyGifContainer').style.display = 'none';
             document.getElementById('gifContainer').style.display = 'none';
+            document.getElementById('sadGifContainer8').style.display = 'none';
             document.getElementById('sadGifContainer').style.display = 'block';
 
             // Modificar el botón "No"
