@@ -115,13 +115,14 @@ document.getElementById('noBtn').addEventListener('click', function() {
             img.style.width = '300px'; // Ajusta el tamaño de la imagen según sea necesario
             img.style.height = 'auto'; // Mantén la proporción de la imagen
             img.style.display = 'block'; // Asegura que la imagen esté visible
+            imgNew.id = 'dynamicenserio'; 
             document.body.appendChild(img);
         
             noButtonState++;
             break;
         case 4:
 
-            const imgElement = document.getElementById('dynamicImage');
+            const imgElement = document.getElementById('dynamicenserio');
             if (imgElement) {
                 imgElement.remove(); // Elimina la imagen del DOM si existe
             }
