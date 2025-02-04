@@ -100,13 +100,18 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = '¿Es en serio?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
-            document.getElementById('sadGifContainer').style.display = 'none';
-            document.getElementById('sadGifContainer2').style.display = 'none';
-            document.getElementById('sadGifContainer1').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '70px';
             document.getElementById('siBtn').style.padding = '50px 70px';
+
+            let img = document.createElement('img'); // Crear un elemento de imagen
+            img.src = 'enserio.jpg'; // Ruta relativa a la imagen en tu repositorio
+            img.alt = 'enserio'; // Descripción alternativa de la imagen
+            img.style.width = '300px'; // Ajusta el tamaño de la imagen según sea necesario
+            img.style.height = 'auto'; // Mantén la proporción de la imagen
+            img.style.display = 'block'; // Asegura que la imagen esté visible
+            document.body.appendChild(img);
         
             noButtonState++;
             break;
