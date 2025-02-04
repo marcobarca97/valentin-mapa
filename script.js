@@ -102,21 +102,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '70px';
             document.getElementById('siBtn').style.padding = '50px 70px';
-
-            document.getElementById('gifContainer').style.display = 'none'; // Oculta el gif principal
-            document.getElementById('sadGifContainer').style.display = 'none'; // Oculta cualquier otro gif triste
-            document.getElementById('sadGifContainer1').style.display = 'none'; // Oculta cualquier otro gif triste
-            document.getElementById('sadGifContainer2').style.display = 'none'; // Oculta cualquier otro gif triste
-            document.getElementById('happyGifContainer').style.display = 'none'; // Oculta los gifs felices previos
-
-            let img = document.createElement('img'); // Crear un elemento de imagen
-            img.src = 'enserio.jpg'; // Ruta relativa a la imagen en tu repositorio
-            img.alt = 'enserio'; // Descripción alternativa de la imagen
-            img.style.width = '300px'; // Ajusta el tamaño de la imagen según sea necesario
-            img.style.height = 'auto'; // Mantén la proporción de la imagen
-            img.style.display = 'block'; // Asegura que la imagen esté visible
-            imgNew.id = 'dynamicenserio'; 
-            document.body.appendChild(img);
         
             noButtonState++;
             break;
@@ -125,15 +110,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
             document.getElementById('noBtn').innerHTML = 'Te pasas Nico...';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
-
-            let imgNew = document.createElement('img'); // Crear un nuevo elemento de imagen
-            imgNew.src = 'pedillos.jpg'; // Ruta de la nueva imagen en tu repositorio
-            imgNew.alt = 'pedillos'; // Descripción alternativa de la nueva imagen
-            imgNew.style.width = '300px'; // Ajusta el tamaño de la imagen según sea necesario
-            imgNew.style.height = 'auto'; // Mantén la proporción de la imagen
-            imgNew.style.display = 'block'; // Asegura que la imagen esté visible
-            imgNew.id = 'dynamicImage'; // Asignar un ID a la nueva imagen para poder eliminarla después
-            document.body.appendChild(imgNew);
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '80px';
