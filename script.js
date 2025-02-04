@@ -98,6 +98,10 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = '¿Es en serio?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer').style.display = 'none';
+            document.getElementById('sadGifContainer2').style.display = 'none';
+            document.getElementById('sadGifContainer1').style.display = 'none';
+            document.getElementById('sadGifContainer3').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '70px';
