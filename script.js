@@ -112,6 +112,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Tu tranquila, yo nervioso';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer4').style.display = 'none';
+            document.getElementById('sadGifContainer').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '80px';
