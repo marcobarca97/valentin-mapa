@@ -10,6 +10,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
     document.getElementById('sadGifContainer1').style.display = 'none';
     document.getElementById('sadGifContainer2').style.display = 'none';
     document.getElementById('gifContainer').style.display = 'none';
+    document.getElementById('sadGifContainer8').style.display = 'none';
     document.getElementById('happyGifContainer').style.display = 'block';
 
     // Ocultar los botones "Pregunta Sí" y "No "
@@ -21,7 +22,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
     document.getElementById('messageContainer').innerHTML = '¡Oh Siii! jajaja';
-
+    document.getElementById('messageContainer').innerHTML = 'Te espero en mi casa el 14/02/2025 a las 7:30pm';
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
         document.getElementById('happyGifContainer').style.display = 'none';
@@ -70,7 +71,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').innerHTML = '¡¿Realmente estas segura?!';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
-            document.getElementById('sadGifContainer2').style.display = 'block';
+            document.getElementById('sadGifContainer5').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '50px';
@@ -113,7 +114,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').innerHTML = 'Tu tranquila, yo nervioso';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer4').style.display = 'none';
-            document.getElementById('sadGifContainer').style.display = 'block';
+            document.getElementById('sadGifContainer1').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '80px';
@@ -125,6 +126,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Jessica Ortega, es en serio!!!';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer1').style.display = 'none';
+            document.getElementById('sadGifContainer6').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '90px';
@@ -136,6 +139,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Estaré muy triste';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer6').style.display = 'none';
+            document.getElementById('sadGifContainer7').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '90px';
@@ -148,6 +153,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Bueno, ya dejaré de preguntar...';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer7').style.display = 'none';
+            document.getElementById('sadGifContainer4').style.display = 'block';
 
          
             document.getElementById('siBtn').style.fontSize = '100px';
@@ -159,6 +166,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Es broma, POR FAVOR DI SÍ';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer4').style.display = 'none';
+            document.getElementById('sadGifContainer9').style.display = 'block';
 
             document.getElementById('siBtn').style.fontSize = '120px';
             document.getElementById('siBtn').style.padding = '110px 130px';
@@ -170,6 +179,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Estaré muy muy muy muy muy triste.';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer9').style.display = 'none';
+            document.getElementById('sadGifContainer7').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '150px';
@@ -182,6 +193,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Estás rompiendo mi corazón :(';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer7').style.display = 'none';
+            document.getElementById('sadGifContainer11').style.display = 'block';
 
             document.getElementById('siBtn').style.fontSize = '150px';
             document.getElementById('siBtn').style.padding = '130px 150px';
@@ -193,6 +206,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'NO... ya di que si';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer11').style.display = 'none';
+            document.getElementById('sadGifContainer10').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '160px';
@@ -205,6 +220,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Anda Siiiiiiiiiiiiiiiiiiiiiiiiiii';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer10').style.display = 'none';
+            document.getElementById('sadGifContainer8').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '170px';
