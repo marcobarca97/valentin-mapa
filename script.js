@@ -103,6 +103,12 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('siBtn').style.fontSize = '70px';
             document.getElementById('siBtn').style.padding = '50px 70px';
 
+            document.getElementById('gifContainer').style.display = 'none'; // Oculta el gif principal
+            document.getElementById('sadGifContainer').style.display = 'none'; // Oculta cualquier otro gif triste
+            document.getElementById('sadGifContainer1').style.display = 'none'; // Oculta cualquier otro gif triste
+            document.getElementById('sadGifContainer2').style.display = 'none'; // Oculta cualquier otro gif triste
+            document.getElementById('happyGifContainer').style.display = 'none'; // Oculta los gifs felices previos
+
             let img = document.createElement('img'); // Crear un elemento de imagen
             img.src = 'enserio.jpg'; // Ruta relativa a la imagen en tu repositorio
             img.alt = 'enserio'; // Descripción alternativa de la imagen
