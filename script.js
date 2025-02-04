@@ -10,7 +10,15 @@ document.getElementById('siBtn').addEventListener('click', function() {
     document.getElementById('sadGifContainer1').style.display = 'none';
     document.getElementById('sadGifContainer2').style.display = 'none';
     document.getElementById('gifContainer').style.display = 'none';
+    document.getElementById('sadGifContainer3').style.display = 'none';
+    document.getElementById('sadGifContainer4').style.display = 'none';
+    document.getElementById('sadGifContainer5').style.display = 'none';
+    document.getElementById('sadGifContainer6').style.display = 'none';
+    document.getElementById('sadGifContainer7').style.display = 'none';
     document.getElementById('sadGifContainer8').style.display = 'none';
+    document.getElementById('sadGifContainer9').style.display = 'none';
+    document.getElementById('sadGifContainer10').style.display = 'none';
+    document.getElementById('sadGifContainer11').style.display = 'none';
     document.getElementById('happyGifContainer').style.display = 'block';
 
     // Ocultar los botones "Pregunta Sí" y "No "
