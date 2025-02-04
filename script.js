@@ -9,8 +9,6 @@ document.getElementById('siBtn').addEventListener('click', function() {
     document.getElementById('sadGifContainer').style.display = 'none';
     document.getElementById('sadGifContainer1').style.display = 'none';
     document.getElementById('sadGifContainer2').style.display = 'none';
-    document.getElementById('sadGifContainer10').style.display = 'none';
-    document.getElementById('sadGifContainer11').style.display = 'none';
     document.getElementById('gifContainer').style.display = 'none';
     document.getElementById('happyGifContainer').style.display = 'block';
 
