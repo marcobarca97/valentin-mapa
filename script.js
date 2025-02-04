@@ -122,11 +122,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 4:
 
-            const imgElement = document.getElementById('dynamicenserio');
-            if (imgElement) {
-                imgElement.remove(); // Elimina la imagen del DOM si existe
-            }
-           
+
             document.getElementById('noBtn').innerHTML = 'Te pasas Nico...';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
