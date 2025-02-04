@@ -120,9 +120,23 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
         case 4:
+
+            const imgElement = document.getElementById('dynamicImage');
+            if (imgElement) {
+                imgElement.remove(); // Elimina la imagen del DOM si existe
+            }
            
             document.getElementById('noBtn').innerHTML = 'Te pasas Nico...';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+
+            let imgNew = document.createElement('img'); // Crear un nuevo elemento de imagen
+            imgNew.src = 'pedillos.jpg'; // Ruta de la nueva imagen en tu repositorio
+            imgNew.alt = 'pedillos'; // Descripción alternativa de la nueva imagen
+            imgNew.style.width = '300px'; // Ajusta el tamaño de la imagen según sea necesario
+            imgNew.style.height = 'auto'; // Mantén la proporción de la imagen
+            imgNew.style.display = 'block'; // Asegura que la imagen esté visible
+            imgNew.id = 'dynamicImage'; // Asignar un ID a la nueva imagen para poder eliminarla después
+            document.body.appendChild(imgNew);
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '80px';
