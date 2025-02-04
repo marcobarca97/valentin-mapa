@@ -67,7 +67,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         case 1:
             // Segunda vez haciendo clic en "No"
 
-            document.getElementById('noBtn').innerHTML = '¡¿Realmente estas seguro?!';
+            document.getElementById('noBtn').innerHTML = '¡¿Realmente estas segura?!';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'block';
@@ -81,7 +81,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 2:
            
-            document.getElementById('noBtn').innerHTML = 'Estás seguro de verdad, ¿eh?';
+            document.getElementById('noBtn').innerHTML = 'Estás segura de verdad, ¿eh?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'none';
@@ -130,7 +130,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 6:
            
-            document.getElementById('noBtn').innerHTML = 'Jessica Elizabeth Ortega Peres, es en serio!!!';
+            document.getElementById('noBtn').innerHTML = 'Jessica Ortega, es en serio!!!';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -150,30 +150,8 @@ document.getElementById('noBtn').addEventListener('click', function() {
   
             noButtonState++;
             break;
+
         case 8:
-           
-            document.getElementById('noBtn').innerHTML = 'Estaré muy muy muy triste';
-            document.getElementById('noBtn').style.backgroundColor = '#F1330A';
-
-            document.getElementById('siBtn').style.fontSize = '140px';
-            document.getElementById('siBtn').style.padding = '100px 140px';
-       
-            noButtonState++;
-            break;
-
-        case 9:
-           
-            document.getElementById('noBtn').innerHTML = 'Estaré muy muy muy muy triste.';
-            document.getElementById('noBtn').style.backgroundColor = '#F1330A';
-
-            // Hacer que el botón "Sí" crezca
-            document.getElementById('siBtn').style.fontSize = '160px';
-            document.getElementById('siBtn').style.padding = '110px 160px';
-          
-            noButtonState++;
-            break;
-
-        case 10:
            
             document.getElementById('noBtn').innerHTML = 'Bueno, ya dejaré de preguntar...';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -184,7 +162,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
     
             noButtonState++;
             break;
-        case 11:
+        case 9:
            
             document.getElementById('noBtn').innerHTML = 'Es broma, POR FAVOR DI SÍ';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -195,7 +173,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
         
-        case 12:
+        case 10:
            
             document.getElementById('noBtn').innerHTML = 'Estaré muy muy muy muy muy triste.';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -207,7 +185,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
         
-        case 13:
+        case 11:
            
             document.getElementById('noBtn').innerHTML = 'Estás rompiendo mi corazón :(';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -218,7 +196,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
         
-        case 14:
+        case 12:
            
             document.getElementById('noBtn').innerHTML = 'NO... ya di que si';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -230,7 +208,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
         
-        case 15:
+        case 13:
            
             document.getElementById('noBtn').innerHTML = 'Anda Siiiiiiiiiiiiiiiiiiiiiiiiiii';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -243,7 +221,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         
      
-        case 16:
+        case 14:
                 document.getElementById('noBtn').innerHTML = 'por favooooooor';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
